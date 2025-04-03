@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Virtual</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-image: url('caminho-da-imagem-cabecalho.jpg'); /* Substitua com o caminho da imagem do cabeçalho */
+            background-size: cover;
+            height: 200px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        header h1 {
+            color: white;
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .menu-section {
+            padding: 20px;
+        }
+        .section-title {
+			color: #CFB53B;
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+        }
+        .menu-category {
+            margin-bottom: 30px;
+        }
+        .menu-subcategory {
+            text-transform: uppercase;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            padding: 5px 0;
+            border-bottom: 1px solid white;
+        }
+        .item:last-child {
+            border-bottom: none;
+        }
+        .price {
+            margin-left: 20px;
+        }
+        .divider {
+            background-image: url('caminho-da-imagem-divisor.jpg'); /* Substitua com o caminho do divisor */
+            background-size: cover;
+            height: 20px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="madamex.png" alt="Madame X Pub" style="max-width: 400px; height: auto;">
+
+    </header>
+
+    <div class="menu-section" style="max-width: 400px; margin: auto;">
+        <div class="menu-category">
+		
+			<div style="width: 100%; height: 20px; background: url('divider1.png') center/cover no-repeat;"></div>
+
+            <h2 class="section-title">Cardápio de Bebidas</h2>
+            
+			<center><div style="width: 40%; height: 20px; background: url('divider2.png') center/cover no-repeat;"></div></center>
+			
+            <h3 class="menu-subcategory">Cervejas</h3>
+            <div class="item"><span>Original 600ml</span><span class="price">R$ 16,00</span></div>
+            <div class="item"><span>Amstel 600ml</span><span class="price">R$ 14,00</span></div>
+            <div class="item"><span>Heineken 600ml</span><span class="price">R$ 18,00</span></div>
+            <div class="item"><span>Brahma Duplo Malte 600ml</span><span class="price">R$ 15,00</span></div>
+            <div class="item"><span>Império 600ml</span><span class="price">R$ 15,00</span></div>
+            <div class="divider"></div>
+            <div class="item"><span>Fürst 600ml</span><span class="price">R$ 28,00</span></div>
+            <div class="item"><span>Corona long neck</span><span class="price">R$ 12,00</span></div>
+            <div class="item"><span>Império long neck</span><span class="price">R$ 10,00</span></div>
+            <div class="item"><span>Império long neck (low carb)</span><span class="price">R$ 10,00</span></div>
+            <br>
+            
+            <center><div style="width: 40%; height: 20px; background: url('divider2.png') center/cover no-repeat;"></div></center>
+            
+            <br>
+            <div class="item"><span>Skol Beats garrafa</span><span class="price">R$ 12,00</span></div>
+            <div class="item"><span>Skol Beats lata G</span><span class="price">R$ 12,00</span></div>
+            <div class="item"><span>Skol Beats lata P</span><span class="price">R$ 8,00</span></div>
+            <br>
+            <center><div style="width: 40%; height: 20px; background: url('divider2.png') center/cover no-repeat;"></div></center>
+            
+            <h3 class="menu-subcategory">Drinks</h3>
+            <div class="item"><span>Caipicerva</span><span class="price">R$ 42,00</span></div>
+            <div class="item"><span>Margarita</span><span class="price">R$ 29,00</span></div>
+            <div class="item"><span>Aperol</span><span class="price">R$ 29,00</span></div>
+            <div class="item"><span>Gin Tônica Lassaleti (especiarias)</span><span class="price">R$ 28,00</span></div>
+            <div class="item"><span>Gin Tônica Lassaleti (especiarias<br>e morango)</span><span class="price">R$ 32,00</span></div>
+            <br>
+            <center><div style="width: 40%; height: 20px; background: url('divider2.png') center/cover no-repeat;"></div></center>
+            
+            <h3 class="menu-subcategory">Caipirinhas Orloff</h3>
+            <div class="item"><span>Maracujá com Manga</span><span class="price">R$ 29,00</span></div>
+            <div class="item"><span>Limão</span><span class="price">R$ 25,00</span></div>
+            <div class="item"><span>Morango</span><span class="price">R$ 28,00</span></div>
+			<div class="item"><span>Yakult</span><span class="price">R$ 26,00</span></div>
+			<div class="item"><span>Yakult com morango</span><span class="price">R$ 29,00</span></div>
+			<div class="item"><span>Safadinha (rúcula, limão e<br>pimenta dedo-de-moça)</span><span class="price">R$ 28,00</span></div>
+            <br>
+            <center><div style="width: 40%; height: 20px; background: url('divider2.png') center/cover no-repeat;"></div></center>
+
+            <h3 class="menu-subcategory">Doses</h3>
+            <div class="item"><span>Vodka Smirnoff</span><span class="price">R$ 18,00</span></div>
+            <div class="item"><span>Vodka Orloff</span><span class="price">R$ 15,00</span></div>
+            <div class="item"><span>Whisky Red Label</span><span class="price">R$ 22,00</span></div>
+			<div class="item"><span>Whisky Jack Daniel's</span><span class="price">R$ 25,00</span></div>
+			<div class="item"><span>Jack Daniel's Honey</span><span class="price">R$ 28,00</span></div>
+			<div class="item"><span>Jack Daniel's Fire</span><span class="price">R$ 28,00</span></div>
+			<div class="item"><span>Tequila José Cuervo</span><span class="price">R$ 22,00</span></div>
+			<div class="item"><span>Campari</span><span class="price">R$ 18,00</span></div>
+			<div class="item"><span>Cachaça</span><span class="price">R$ 7,00</span></div>
+            <br>
+			<center><div style="width: 40%; height: 20px; background: url('divider2.png') center/cover no-repeat;"></div></center>
+
+            <h3 class="menu-subcategory">Copão</h3>
+            <div class="item"><span>Vodka</span><span class="price">R$ 16,00</span></div>
+			<div class="item"><span>Whisky</span><span class="price">R$ 20,00</span></div>
+			<div class="item"><span>Gin Lassaleti</span><span class="price">R$ 20,00</span></div>            
+			<br>
+            <center><div style="width: 40%; height: 20px; background: url('divider2.png') center/cover no-repeat;"></div></center>
+            
+            <h3 class="menu-subcategory">Sem Álcool</h3>
+            <div class="item"><span>Água sem gás</span><span class="price">R$ 4,00</span></div>
+            <div class="item"><span>Água com gás</span><span class="price">R$ 5,00</span></div>
+			<div class="item"><span>Refrigerante</span><span class="price">R$ 7,50</span></div>
+			<div class="item"><span>Suco de limão</span><span class="price">R$ 10,00</span></div>
+			<div class="item"><span>Suco de morango</span><span class="price">R$ 10,00</span></div>
+			<div class="item"><span>Maracujá com manga (drink<br>não-alcoólico)</span><span class="price">R$ 18,00</span></div>
+			<div class="item"><span>Morango com gás (drink não-alcoólico)</span><span class="price">R$ 18,00</span></div>
+			<div class="item"><span>Energético Red Bull</span><span class="price">R$ 16,00</span></div>
+            
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="menu-category">
+		
+			<div style="width: 100%; height: 20px; background: url('divider1.png') center/cover no-repeat;"></div>
+			
+            <h2 class="section-title">Cardápio de Comidas</h2>
+            <br>
+			<center><div style="width: 40%; height: 20px; background: url('divider2.png') center/cover no-repeat;"></div></center>
+			
+            <h3 class="menu-subcategory">Tábua de Frios - R$ 95,00</h3>
+            <div class="item"><span>Gorgonzola</span><span>Parmesão</span><span>Provolone</span></div>
+			<div class="item"><span>Salame</span><span>Azeitona</span><span>Tomatinho</span></div>
+			<div class="item"><span>Palmito</span></div>
+            <br>
+            <center><div style="width: 40%; height: 20px; background: url('divider2.png') center/cover no-repeat;"></div></center>
+            
+            <h3 class="menu-subcategory">Comida Árabe - R$ 75,00</h3>
+            <div class="item"><span>Quibe cru</span><span>Babaganoush</span></div>
+            <div class="item"><span>Homus Tahine</span><span>Coalhada seca</span></div>
+			<div class="item"><span>Pão sírio</span></div>
+			<br>
+            <center><div style="width: 40%; height: 20px; background: url('divider2.png') center/cover no-repeat;"></div></center>
+            
+            <h3 class="menu-subcategory">Porções Frias</h3>
+            <div class="item"><span>Amendoim Japonês</span><span class="price">R$ 7,00</span></div>
+			<div class="item"><span>Salame</span><span class="price">R$ 25,00</span></div>
+			<div class="item"><span>Gorgonzola</span><span class="price">R$ 29,00</span></div>
+			<div class="item"><span>Parmesão</span><span class="price">R$ 29,00</span></div>
+			<div class="item"><span>Provolone</span><span class="price">R$ 29,00</span></div>
+            <br>
+            <center><div style="width: 40%; height: 20px; background: url('divider2.png') center/cover no-repeat;"></div></center>
+            
+            <h3 class="menu-subcategory">Porções Quentes</h3>
+            <div class="item"><span>Tropeiro</span><span class="price">R$ 26,00</span></div>
+			<div class="item"><span>Quibe</span><span class="price">R$ 28,00</span></div>
+			<div class="item"><span>Bolinha de queijo</span><span class="price">R$ 28,00</span></div>
+			<div class="item"><span>Bolinho de alho poró com milho</span><span class="price">R$ 28,00</span></div>
+			<div class="item"><span>Caldo de feijão</span><span class="price">R$ 26,00</span></div>
+			<div class="item"><span>Linguiça recheada de <br>pimenta biquinho</span><span class="price">R$ 55,00</span></div>
+			<div class="item"><span>Linguiça recheada de rúcula e<br> queijo coalho</span><span class="price">R$ 55,00</span></div>
+			<br>
+			<center><div style="width: 40%; height: 20px; background: url('divider2.png') center/cover no-repeat;"></div></center>
+			
+        </div>
+    </div>
+</body>
+</html>
